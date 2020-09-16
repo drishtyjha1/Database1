@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+ <EditText
+     android:id="@+id/et_stdName"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+  android:hint="Enter Student name"
+  android:inputType="textPersonName"/>
+
+ <EditText
+     android:id="@+id/et_stdEmail"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:hint="Enter Student email"
+     android:inputType="textEmailAddress"/>
+
+ <EditText
+     android:id="@+id/et_stdContact"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:hint="Enter Student contact"
+     android:inputType="phone"/>
+
+ <EditText
+     android:id="@+id/et_stdYear"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:hint="Enter Student passout year"
+     android:inputType="textPersonName"/>
+
+ <EditText
+     android:id="@+id/et_stdCourse"
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:hint="Enter Student Course"
+     android:inputType="textPersonName"/>
+ <Button
+     android:id="@+id/btn_stdDetail"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:onClick="onEnterClicked"
+     android:text="Enter Student"
+     />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="onViewStudentClicked"
+    android:text="View List"/>
+</LinearLayout>
